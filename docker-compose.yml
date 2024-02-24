@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+  checkpoint-example:
+    privileged: true
+    build:
+      context: .
+    volumes:
+      - .:/app
+    working_dir: /app
+   
+

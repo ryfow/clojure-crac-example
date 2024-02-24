@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {org.crac/crac {:mvn/version "1.4.0"}}
+ :aliases {
+   :create-checkpoint {
+     :jvm-opts ["-XX:CRaCCheckpointTo=./crac-image"]}}}
