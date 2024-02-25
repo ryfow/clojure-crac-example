@@ -1,0 +1,4 @@
+.clojure/
+.cpcache/
+crac-image/
+stats-restore
